@@ -36,8 +36,8 @@
 }
 
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
 <svg class="chart"></svg>
-<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 var margin = {top: 20, right: 30, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
@@ -132,7 +132,7 @@ function dollarFormatter(n) {
     result = Math.round(n/1000) + 'K';
   }
   return '$' + result;
-</script>
-}
 
+}
+</script>
 
