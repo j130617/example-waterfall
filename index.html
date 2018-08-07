@@ -77,7 +77,7 @@ d3.csv("data.csv", type, function(error, data) {
     data[i].class = ( data[i].value >= 0 ) ? 'positive' : 'negative'
   }
   data.push({
-    name: 'Total',
+    name: 'Totaal',
     end: cumulative,
     start: 0,
     class: 'total'
